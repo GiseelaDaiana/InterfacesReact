@@ -5,7 +5,7 @@ const Movie = ({ movie }) => {
     return ( 
     <div> 
       <div style={{ textAlign: 'center' }}>
-             <p style={{fontFamily:'Engcomica'}}>   {movie.name}  </p>
+             <p>   {movie.name}  </p>
         </div>
         <div>
            { movie.image && <Image src={movie.image.url}/>}
